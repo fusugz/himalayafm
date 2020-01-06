@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714426412512421640FEB7C4 /* Pods_himalayafm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7FC65829867A50A856845D /* Pods_himalayafm.framework */; };
 		98DC2E4623C315CE00316E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E4523C315CE00316E38 /* AppDelegate.swift */; };
 		98DC2E4823C315CE00316E38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E4723C315CE00316E38 /* SceneDelegate.swift */; };
 		98DC2E4A23C315CE00316E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E4923C315CE00316E38 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A95D5FF408F4F2422C7EC55 /* Pods-himalayafm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-himalayafm.debug.xcconfig"; path = "Target Support Files/Pods-himalayafm/Pods-himalayafm.debug.xcconfig"; sourceTree = "<group>"; };
 		98DC2E4223C315CE00316E38 /* himalayafm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = himalayafm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DC2E4523C315CE00316E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DC2E4723C315CE00316E38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		98DC2E4E23C315CF00316E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98DC2E5123C315CF00316E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98DC2E5323C315CF00316E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0529E81282DE039B94CD61C /* Pods-himalayafm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-himalayafm.release.xcconfig"; path = "Target Support Files/Pods-himalayafm/Pods-himalayafm.release.xcconfig"; sourceTree = "<group>"; };
+		FE7FC65829867A50A856845D /* Pods_himalayafm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_himalayafm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714426412512421640FEB7C4 /* Pods_himalayafm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B0129DD448DCB715A5B304C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A95D5FF408F4F2422C7EC55 /* Pods-himalayafm.debug.xcconfig */,
+				B0529E81282DE039B94CD61C /* Pods-himalayafm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		98DC2E3923C315CE00316E38 = {
 			isa = PBXGroup;
 			children = (
 				98DC2E4423C315CE00316E38 /* himalayafm */,
 				98DC2E4323C315CE00316E38 /* Products */,
+				5B0129DD448DCB715A5B304C /* Pods */,
+				A90A65EBFBBA24D16AE12CA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +83,14 @@
 			path = himalayafm;
 			sourceTree = "<group>";
 		};
+		A90A65EBFBBA24D16AE12CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE7FC65829867A50A856845D /* Pods_himalayafm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98DC2E5623C315CF00316E38 /* Build configuration list for PBXNativeTarget "himalayafm" */;
 			buildPhases = (
+				5C5EC76D3B95ED8A9FD67870 /* [CP] Check Pods Manifest.lock */,
 				98DC2E3E23C315CE00316E38 /* Sources */,
 				98DC2E3F23C315CE00316E38 /* Frameworks */,
 				98DC2E4023C315CE00316E38 /* Resources */,
+				137E471C9BAB6C1432BBE513 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,7 +121,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = zm;
+				ORGANIZATIONNAME = fusu;
 				TargetAttributes = {
 					98DC2E4123C315CE00316E38 = {
 						CreatedOnToolsVersion = 11.3;
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137E471C9BAB6C1432BBE513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-himalayafm/Pods-himalayafm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-himalayafm/Pods-himalayafm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-himalayafm/Pods-himalayafm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5EC76D3B95ED8A9FD67870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-himalayafm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		98DC2E3E23C315CE00316E38 /* Sources */ = {
@@ -282,6 +350,7 @@
 		};
 		98DC2E5723C315CF00316E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A95D5FF408F4F2422C7EC55 /* Pods-himalayafm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +369,7 @@
 		};
 		98DC2E5823C315CF00316E38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0529E81282DE039B94CD61C /* Pods-himalayafm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
