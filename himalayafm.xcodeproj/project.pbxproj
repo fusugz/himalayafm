@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		714426412512421640FEB7C4 /* Pods_himalayafm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7FC65829867A50A856845D /* Pods_himalayafm.framework */; };
+		989FBFF623CC4F04000254C1 /* MZHomeRecommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FBFF523CC4F04000254C1 /* MZHomeRecommandViewController.swift */; };
+		989FBFFB23CC4F43000254C1 /* MZHomeClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FBFFA23CC4F43000254C1 /* MZHomeClassifyViewController.swift */; };
+		989FBFFD23CC4F5E000254C1 /* MZHomeBroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FBFFC23CC4F5E000254C1 /* MZHomeBroadcastViewController.swift */; };
+		989FBFFF23CC4F7B000254C1 /* MZHomeLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FBFFE23CC4F7B000254C1 /* MZHomeLiveViewController.swift */; };
+		989FC00123CC4F8A000254C1 /* MZHomeVIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FC00023CC4F8A000254C1 /* MZHomeVIPViewController.swift */; };
 		98DC2E4623C315CE00316E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E4523C315CE00316E38 /* AppDelegate.swift */; };
 		98DC2E4823C315CE00316E38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E4723C315CE00316E38 /* SceneDelegate.swift */; };
 		98DC2E4A23C315CE00316E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E4923C315CE00316E38 /* ViewController.swift */; };
@@ -33,6 +38,11 @@
 
 /* Begin PBXFileReference section */
 		5A95D5FF408F4F2422C7EC55 /* Pods-himalayafm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-himalayafm.debug.xcconfig"; path = "Target Support Files/Pods-himalayafm/Pods-himalayafm.debug.xcconfig"; sourceTree = "<group>"; };
+		989FBFF523CC4F04000254C1 /* MZHomeRecommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZHomeRecommandViewController.swift; sourceTree = "<group>"; };
+		989FBFFA23CC4F43000254C1 /* MZHomeClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZHomeClassifyViewController.swift; sourceTree = "<group>"; };
+		989FBFFC23CC4F5E000254C1 /* MZHomeBroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZHomeBroadcastViewController.swift; sourceTree = "<group>"; };
+		989FBFFE23CC4F7B000254C1 /* MZHomeLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZHomeLiveViewController.swift; sourceTree = "<group>"; };
+		989FC00023CC4F8A000254C1 /* MZHomeVIPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZHomeVIPViewController.swift; sourceTree = "<group>"; };
 		98DC2E4223C315CE00316E38 /* himalayafm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = himalayafm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DC2E4523C315CE00316E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98DC2E4723C315CE00316E38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +89,54 @@
 				B0529E81282DE039B94CD61C /* Pods-himalayafm.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		989FBFF023CC4E67000254C1 /* Recommand */ = {
+			isa = PBXGroup;
+			children = (
+				989FC00223CC6E1C000254C1 /* Views */,
+				989FBFF523CC4F04000254C1 /* MZHomeRecommandViewController.swift */,
+			);
+			path = Recommand;
+			sourceTree = "<group>";
+		};
+		989FBFF223CC4E90000254C1 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				989FC00023CC4F8A000254C1 /* MZHomeVIPViewController.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		989FBFF323CC4E96000254C1 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				989FBFFE23CC4F7B000254C1 /* MZHomeLiveViewController.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		989FBFF423CC4EC7000254C1 /* Broadcast */ = {
+			isa = PBXGroup;
+			children = (
+				989FBFFC23CC4F5E000254C1 /* MZHomeBroadcastViewController.swift */,
+			);
+			path = Broadcast;
+			sourceTree = "<group>";
+		};
+		989FBFF923CC4F2C000254C1 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				989FBFFA23CC4F43000254C1 /* MZHomeClassifyViewController.swift */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		989FC00223CC6E1C000254C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		98DC2E3923C315CE00316E38 = {
@@ -136,6 +194,11 @@
 			isa = PBXGroup;
 			children = (
 				98DC2E5C23C337A400316E38 /* MZHomeViewController.swift */,
+				989FBFF923CC4F2C000254C1 /* Classify */,
+				989FBFF423CC4EC7000254C1 /* Broadcast */,
+				989FBFF323CC4E96000254C1 /* Live */,
+				989FBFF223CC4E90000254C1 /* VIP */,
+				989FBFF023CC4E67000254C1 /* Recommand */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -328,15 +391,20 @@
 				98DC2E7D23C355AE00316E38 /* WRNavigationBar.swift in Sources */,
 				98DC2E6123C338CF00316E38 /* MZCustomTabBarController.swift in Sources */,
 				98DC2E4A23C315CE00316E38 /* ViewController.swift in Sources */,
+				989FBFFF23CC4F7B000254C1 /* MZHomeLiveViewController.swift in Sources */,
 				98DC2E5D23C337A400316E38 /* MZHomeViewController.swift in Sources */,
 				98DC2E8023C355AE00316E38 /* WRCycleScrollView.swift in Sources */,
+				989FBFFB23CC4F43000254C1 /* MZHomeClassifyViewController.swift in Sources */,
+				989FBFF623CC4F04000254C1 /* MZHomeRecommandViewController.swift in Sources */,
 				98DC2E4623C315CE00316E38 /* AppDelegate.swift in Sources */,
+				989FC00123CC4F8A000254C1 /* MZHomeVIPViewController.swift in Sources */,
 				98DC2E7223C352FE00316E38 /* MZBounceContentView.swift in Sources */,
 				98DC2E4823C315CE00316E38 /* SceneDelegate.swift in Sources */,
 				98DC2E8123C355AE00316E38 /* WRCycleCell.swift in Sources */,
 				98DC2E6723C33DEC00316E38 /* MZMineViewController.swift in Sources */,
 				98DC2E6923C33DF600316E38 /* MZPlayViewController.swift in Sources */,
 				98DC2E6B23C340CF00316E38 /* MZIrregularityContentView.swift in Sources */,
+				989FBFFD23CC4F5E000254C1 /* MZHomeBroadcastViewController.swift in Sources */,
 				98DC2E8323C3566400316E38 /* MZHeader.swift in Sources */,
 				98DC2E6523C33D8500316E38 /* MZDiscoverViewController.swift in Sources */,
 				98DC2E7E23C355AE00316E38 /* WRCustomNavigationBar.swift in Sources */,

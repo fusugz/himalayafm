@@ -7,24 +7,35 @@
 //
 
 import UIKit
+import DNSPageView
 
 class MZHomeViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = UIColor.white
+        
+        setupPageView()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupPageView() {
+        let style = PageStyle()
+        style.isTitleScaleEnabled = true
+        style.isTitleViewScrollEnabled = true
+        style.isShowBottomLine = true
+        style.titleColor = UIColor.lightGray
+        style.titleSelectedColor = UIColor.darkText
+        
+        let titles = ["推荐", "分类", "VIP", "直播", "广播"]
+        let controllers: [UIViewController] = [MZHomeRecommandViewController(), MZHomeClassifyViewController(), MZHomeVIPViewController(), MZHomeLiveViewController(), MZHomeBroadcastViewController()]
+        
+        for viewController in controllers {
+            self.addChild(viewController)
+        }
+        
+        let pageView = PageView(frame: CGRect(x: 0, y: NavigationBarHeight, width: ScreenWidth, height: ScreenHeight - NavigationBarHeight - 44.0), style: style, titles: titles, childViewControllers: controllers, startIndex: 0)
+        pageView.contentView.backgroundColor = UIColor.red
+        view.addSubview(pageView)
     }
-    */
 
 }

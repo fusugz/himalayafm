@@ -18,8 +18,6 @@ class MZNavigationController: UINavigationController {
         WRNavigationBar.defaultNavBarTitleColor = UIColor.darkText
         WRNavigationBar.defaultShadowImageHidden = true
     }
-    
-    
 }
 
 extension MZNavigationController {
