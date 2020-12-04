@@ -35,7 +35,7 @@
 		98DC2E7F23C355AE00316E38 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E7A23C355AE00316E38 /* WRProxy.swift */; };
 		98DC2E8023C355AE00316E38 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E7B23C355AE00316E38 /* WRCycleScrollView.swift */; };
 		98DC2E8123C355AE00316E38 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E7C23C355AE00316E38 /* WRCycleCell.swift */; };
-		98DC2E8323C3566400316E38 /* MZHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E8223C3566400316E38 /* MZHeader.swift */; };
+		98DC2E8323C3566400316E38 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DC2E8223C3566400316E38 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,7 +69,7 @@
 		98DC2E7A23C355AE00316E38 /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
 		98DC2E7B23C355AE00316E38 /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
 		98DC2E7C23C355AE00316E38 /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
-		98DC2E8223C3566400316E38 /* MZHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZHeader.swift; sourceTree = "<group>"; };
+		98DC2E8223C3566400316E38 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		B0529E81282DE039B94CD61C /* Pods-himalayafm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-himalayafm.release.xcconfig"; path = "Target Support Files/Pods-himalayafm/Pods-himalayafm.release.xcconfig"; sourceTree = "<group>"; };
 		FE7FC65829867A50A856845D /* Pods_himalayafm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_himalayafm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -166,21 +166,21 @@
 		98DC2E4423C315CE00316E38 /* himalayafm */ = {
 			isa = PBXGroup;
 			children = (
-				98DC2E8223C3566400316E38 /* MZHeader.swift */,
+				98DC2E8223C3566400316E38 /* Header.swift */,
 				98DC2E4523C315CE00316E38 /* AppDelegate.swift */,
+				98DC2E4723C315CE00316E38 /* SceneDelegate.swift */,
+				98DC2E4923C315CE00316E38 /* ViewController.swift */,
 				98DC2E5323C315CF00316E38 /* Info.plist */,
 				98DC2E5023C315CF00316E38 /* LaunchScreen.storyboard */,
 				98DC2E4E23C315CF00316E38 /* Assets.xcassets */,
+				98DC2E4B23C315CE00316E38 /* Main.storyboard */,
 				98DC2E7523C3558D00316E38 /* Libs */,
 				98DC2E6F23C3520B00316E38 /* Discover */,
 				98DC2E6C23C351D700316E38 /* Home */,
 				98DC2E6D23C351E600316E38 /* Listen */,
 				98DC2E5923C3310100316E38 /* Main */,
-				98DC2E4B23C315CE00316E38 /* Main.storyboard */,
 				98DC2E7023C3521D00316E38 /* Mine */,
 				98DC2E6E23C3520100316E38 /* Play */,
-				98DC2E4723C315CE00316E38 /* SceneDelegate.swift */,
-				98DC2E4923C315CE00316E38 /* ViewController.swift */,
 			);
 			path = himalayafm;
 			sourceTree = "<group>";
@@ -412,7 +412,7 @@
 				98DC2E6923C33DF600316E38 /* PlayViewController.swift in Sources */,
 				98DC2E6B23C340CF00316E38 /* IrregularityContentView.swift in Sources */,
 				989FBFFD23CC4F5E000254C1 /* HomeBroadcastViewController.swift in Sources */,
-				98DC2E8323C3566400316E38 /* MZHeader.swift in Sources */,
+				98DC2E8323C3566400316E38 /* Header.swift in Sources */,
 				98DC2E6523C33D8500316E38 /* DiscoverViewController.swift in Sources */,
 				98DC2E7E23C355AE00316E38 /* WRCustomNavigationBar.swift in Sources */,
 				98DC2E7423C3553C00316E38 /* NavigationController.swift in Sources */,
