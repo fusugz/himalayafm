@@ -18,12 +18,12 @@ target 'himalayafm' do
 	pod 'DNSPageView'
 	#跑马灯
 	pod 'JXMarqueeView'
-  #滚动页
-  pod 'LTScrollView'
-  pod 'MJRefresh'
-  #消息提示
-  pod 'SwiftMessages'
-  pod 'SVProgressHUD'
-  #播放网络音频
-  pod 'StreamingKit'
+    #滚动页
+    pod 'LTScrollView'
+    pod 'MJRefresh'
+    #消息提示
+    pod 'SwiftMessages'
+    pod 'SVProgressHUD'
+    #播放网络音频
+    pod 'StreamingKit'
 end

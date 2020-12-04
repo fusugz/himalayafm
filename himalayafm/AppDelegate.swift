@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let tabBarController = MZCustomTabBarController()
+        let tabBarController = CustomTabBarController()
         tabBarController.customTabBar(delegate: self as? UITabBarControllerDelegate)
         
         self.window?.backgroundColor = UIColor.white

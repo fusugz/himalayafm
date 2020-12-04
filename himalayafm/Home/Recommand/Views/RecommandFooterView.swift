@@ -1,5 +1,5 @@
 //
-//  MZRecommandHeaderView.swift
+//  RecommandFooterView.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/13.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class MZRecommandHeaderView: UICollectionReusableView {
+class RecommandFooterView: UICollectionReusableView {
     
 }

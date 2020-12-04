@@ -1,14 +1,14 @@
 //
-//  MZHomeLiveViewController.swift
+//  DiscoverViewController.swift
 //  himalayafm
 //
-//  Created by zm on 2020/1/13.
+//  Created by zm on 2020/1/6.
 //  Copyright © 2020 fusu. All rights reserved.
 //
 
 import UIKit
 
-class MZHomeLiveViewController: UIViewController {
+class DiscoverViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

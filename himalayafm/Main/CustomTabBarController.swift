@@ -1,5 +1,5 @@
 //
-//  MZCustomTabBarController.swift
+//  CustomTabBarController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/6.
@@ -10,7 +10,7 @@ import UIKit
 import ESTabBarController_swift
 import SwiftMessages
 
-class MZCustomTabBarController: ESTabBarController {
+class CustomTabBarController: ESTabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,25 +41,25 @@ class MZCustomTabBarController: ESTabBarController {
         }
         
         // Tab bar items
-        let home = MZHomeViewController()
-        let listen = MZListenViewController()
-        let play = MZPlayViewController()
-        let discover = MZDiscoverViewController()
-        let mine = MZMineViewController()
+        let home = HomeViewController()
+        let listen = ListenViewController()
+        let play = PlayViewController()
+        let discover = DiscoverViewController()
+        let mine = MineViewController()
         
         let titles = ["首页", "我听", "播放", "发现", "我的"]
         
-        home.tabBarItem = ESTabBarItem.init(MZCommonContentView(), title: titles[0], image: UIImage.init(named: "tab_home_normal"), selectedImage: UIImage.init(named: "tab_home_highlighted"), tag: 0)
-        listen.tabBarItem = ESTabBarItem.init(MZCommonContentView(), title: titles[1], image: UIImage.init(named: "tab_listen_normal"), selectedImage: UIImage.init(named: "tab_listen_highlighted"), tag: 1)
-        play.tabBarItem = ESTabBarItem.init(MZIrregularityContentView(), title: nil, image: UIImage.init(named: "tab_play_normal"), selectedImage: UIImage.init(named: "tab_play_highlighted"), tag: 2)
-        discover.tabBarItem = ESTabBarItem.init(MZCommonContentView(), title: titles[3], image: UIImage.init(named: "tab_discover_normal"), selectedImage: UIImage.init(named: "tab_discover_highlighted"), tag: 3)
-        mine.tabBarItem = ESTabBarItem.init(MZCommonContentView(), title: titles[4], image: UIImage.init(named: "tab_mine_normal"), selectedImage: UIImage.init(named: "tab_mine_highlighted"), tag: 4)
+        home.tabBarItem = ESTabBarItem.init(CommonContentView(), title: titles[0], image: UIImage.init(named: "tab_home_normal"), selectedImage: UIImage.init(named: "tab_home_highlighted"), tag: 0)
+        listen.tabBarItem = ESTabBarItem.init(CommonContentView(), title: titles[1], image: UIImage.init(named: "tab_listen_normal"), selectedImage: UIImage.init(named: "tab_listen_highlighted"), tag: 1)
+        play.tabBarItem = ESTabBarItem.init(IrregularityContentView(), title: nil, image: UIImage.init(named: "tab_play_normal"), selectedImage: UIImage.init(named: "tab_play_highlighted"), tag: 2)
+        discover.tabBarItem = ESTabBarItem.init(CommonContentView(), title: titles[3], image: UIImage.init(named: "tab_discover_normal"), selectedImage: UIImage.init(named: "tab_discover_highlighted"), tag: 3)
+        mine.tabBarItem = ESTabBarItem.init(CommonContentView(), title: titles[4], image: UIImage.init(named: "tab_mine_normal"), selectedImage: UIImage.init(named: "tab_mine_highlighted"), tag: 4)
         
-        let homeNav = MZNavigationController.init(rootViewController: home)
-        let listenNav = MZNavigationController.init(rootViewController: listen)
-        let playNav = MZNavigationController.init(rootViewController: play)
-        let discoverNav = MZNavigationController.init(rootViewController: discover)
-        let mineNav = MZNavigationController.init(rootViewController: mine)
+        let homeNav = NavigationController.init(rootViewController: home)
+        let listenNav = NavigationController.init(rootViewController: listen)
+        let playNav = NavigationController.init(rootViewController: play)
+        let discoverNav = NavigationController.init(rootViewController: discover)
+        let mineNav = NavigationController.init(rootViewController: mine)
         homeNav.title = titles[0]
         listenNav.title = titles[1]
         playNav.title = titles[2]

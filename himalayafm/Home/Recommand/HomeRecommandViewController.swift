@@ -1,5 +1,5 @@
 //
-//  MZHomeRecommandViewController.swift
+//  HomeRecommandViewController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MZHomeRecommandViewController: UIViewController {
+class HomeRecommandViewController: UIViewController {
     
     private let kRecommandHeaderViewID = "RecommandHeaderView"
     private let kRecommandFooterViewID = "RecommandFooterView"
@@ -26,8 +26,8 @@ class MZHomeRecommandViewController: UIViewController {
         customCollectionView.delegate = self as? UICollectionViewDelegate
         customCollectionView.dataSource = self as? UICollectionViewDataSource
         
-        customCollectionView.register(MZRecommandHeaderView.self, forCellWithReuseIdentifier:kRecommandHeaderViewID)
-        customCollectionView.register(MZRecommandFooterView.self, forCellWithReuseIdentifier: kRecommandFooterViewID)
+        customCollectionView.register(RecommandHeaderView.self, forCellWithReuseIdentifier:kRecommandHeaderViewID)
+        customCollectionView.register(RecommandFooterView.self, forCellWithReuseIdentifier: kRecommandFooterViewID)
         
         return customCollectionView
     }()

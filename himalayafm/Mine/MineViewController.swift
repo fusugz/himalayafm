@@ -1,5 +1,5 @@
 //
-//  MZMineViewController.swift
+//  MineViewController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/6.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MZMineViewController: UIViewController {
+class MineViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

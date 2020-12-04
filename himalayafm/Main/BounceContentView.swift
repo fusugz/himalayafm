@@ -1,5 +1,5 @@
 //
-//  MZBounceContentView.swift
+//  BounceContentView.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/6.
@@ -9,7 +9,7 @@
 import UIKit
 import ESTabBarController_swift
 
-class MZBounceContentView: ESTabBarItemContentView {
+class BounceContentView: ESTabBarItemContentView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)

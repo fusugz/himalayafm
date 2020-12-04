@@ -1,5 +1,5 @@
 //
-//  MZHomeVIPViewController.swift
+//  HomeBroadcastViewController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/13.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class MZHomeVIPViewController: UIViewController {
-
+class HomeBroadcastViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
 
 }

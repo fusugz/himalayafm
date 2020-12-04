@@ -1,5 +1,5 @@
 //
-//  MZNavigationController.swift
+//  NavigationController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/6.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MZNavigationController: UINavigationController {
+class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class MZNavigationController: UINavigationController {
     }
 }
 
-extension MZNavigationController {
+extension NavigationController {
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if children.count > 0 {
             viewController.hidesBottomBarWhenPushed = true

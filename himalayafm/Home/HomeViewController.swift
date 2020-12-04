@@ -1,5 +1,5 @@
 //
-//  MZHomeViewController.swift
+//  HomeViewController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/6.
@@ -9,7 +9,7 @@
 import UIKit
 import DNSPageView
 
-class MZHomeViewController: UIViewController {
+class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,7 +27,7 @@ class MZHomeViewController: UIViewController {
         style.titleSelectedColor = UIColor.darkText
         
         let titles = ["推荐", "分类", "VIP", "直播", "广播"]
-        let controllers: [UIViewController] = [MZHomeRecommandViewController(), MZHomeClassifyViewController(), MZHomeVIPViewController(), MZHomeLiveViewController(), MZHomeBroadcastViewController()]
+        let controllers: [UIViewController] = [HomeRecommandViewController(), HomeClassifyViewController(), HomeVIPViewController(), HomeLiveViewController(), HomeBroadcastViewController()]
         
         for viewController in controllers {
             self.addChild(viewController)

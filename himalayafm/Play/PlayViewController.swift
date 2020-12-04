@@ -1,5 +1,5 @@
 //
-//  MZPlayViewController.swift
+//  PlayViewController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/6.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MZPlayViewController: UIViewController {
+class PlayViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

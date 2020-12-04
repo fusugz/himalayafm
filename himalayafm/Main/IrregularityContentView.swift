@@ -1,5 +1,5 @@
 //
-//  MZIrregularityContentView.swift
+//  IrregularityContentView.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/6.
@@ -9,7 +9,7 @@
 import UIKit
 import ESTabBarController_swift
 
-class MZCommonContentView: ESTabBarItemContentView {
+class CommonContentView: ESTabBarItemContentView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -24,7 +24,7 @@ class MZCommonContentView: ESTabBarItemContentView {
     }
 }
 
-class MZIrregularityContentView: ESTabBarItemContentView {
+class IrregularityContentView: ESTabBarItemContentView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)

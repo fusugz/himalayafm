@@ -1,5 +1,5 @@
 //
-//  MZHomeClassifyViewController.swift
+//  HomeLiveViewController.swift
 //  himalayafm
 //
 //  Created by zm on 2020/1/13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MZHomeClassifyViewController: UIViewController {
+class HomeLiveViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
